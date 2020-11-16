@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
-    "autoprefixer": "^9.8.0",
+    "autoprefixer": "^10.0.2",
     "next": "^10.0.1",
     "postcss-import": "^13.0.0",
     "react": "^17.0.1",

@@ -17,7 +17,7 @@ const Index = ({ repos, user }) => {
     </div>
   )
 }
-export async function getServerSideProps (context) {
+export async function getServerSideProps () {
   const request = await fetch(process.env.API_URL + '/api/getUser')
   const { repos, user } = await request.json()
   return {
