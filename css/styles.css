@@ -3,3 +3,11 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+body {
+  background: #ebf4ff;
+}
+
+.bg-network {
+  background: url(/images/network.png) top right no-repeat;
+}

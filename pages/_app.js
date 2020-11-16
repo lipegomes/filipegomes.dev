@@ -5,7 +5,18 @@ import '../css/styles.css'
 class MyApp extends App {
   render () {
     const { Component, pageProps } = this.props
-    return <Component {...pageProps} />
+    return (
+      // fragment shorthand
+      <>
+        <style jsx global>
+          {`
+          @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+          `}
+        </style>
+        <Component {...pageProps} />
+      </>
+
+    )
   }
 }
 
