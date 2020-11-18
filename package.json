@@ -1,26 +1,26 @@
 {
   "name": "filipegomes.dev",
   "version": "1.0.0",
-  "description": "",
+  "description": "Filipe Gomes resume",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@fullhuman/postcss-purgecss": "^3.0.0",
-    "autoprefixer": "^10.0.2",
-    "next": "^10.0.1",
-    "postcss-import": "^13.0.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-icons": "^3.11.0",
-    "swr": "^0.3.8",
-    "tailwindcss": "^1.9.6"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lipegomes/filipegomes.dev.git"
   },
-  "devDependencies": {}
+  "author": "Filipe Gomes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lipegomes/filipegomes.dev/issues"
+  },
+  "homepage": "https://github.com/lipegomes/filipegomes.dev#readme",
+  "dependencies": {
+    "next": "^10.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
 }
