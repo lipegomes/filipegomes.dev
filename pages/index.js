@@ -5,12 +5,21 @@ const Index = (props) => {
     <div>
       <h1>Bem vindo</h1>
       <div>{props.currentDate}</div>
+      {props.repos.map(repo => {
+        return (
+          <div>
+            <h3>{repo.full_name}</h3>
+        <p>Language: {repo.language} / Stars: {repo.stargazers}</p>
+          </div>
+        )
+      })}
     </div>
   )
 }
 export async function getServerSideProps(context) {
-  const resRepos = fetch('https://api.github.com/users/lipegomes/repos?sort=updated')
+  const resRepos = await fetch('https://api.github.com/users/lipegomes/repos?sort=updated')
   const repos = await resRepos.json()
+
   return {
     props: {
       currentDate: new Date().toString(),
