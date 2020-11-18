@@ -3,7 +3,7 @@ import React from 'react'
 const Index = (props) => {
   return(
     <div>
-      <h1>Bem vindo</h1>
+      <h1>Bem vindo, site em desenvolvimento !!!</h1>
       <div>{props.currentDate}</div>
       {props.repos.map(repo => {
         return (
