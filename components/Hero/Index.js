@@ -19,7 +19,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div><img src='/images/filipegomes.png' /></div>
+      <div><img src='/images/under-construction.png' /></div>
     </div>
   )
 }
