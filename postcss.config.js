@@ -16,4 +16,4 @@ module.exports = {
 }
 
 // Continuar na aula:
-// [Alt 01] Aula 14 - Componenttizando.
+// [Alt 01] Aula 14 - Componentizando.
