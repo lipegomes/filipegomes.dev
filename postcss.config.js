@@ -14,6 +14,3 @@ module.exports = {
     ...(process.env.NODE_ENV === 'production' ? [purgecss] : [])
   ]
 }
-
-// Continuar na aula:
-// [Alt 01] Aula 14 - Componentizando.
