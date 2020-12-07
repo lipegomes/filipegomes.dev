@@ -1,11 +1,13 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
 
-.bg-body {
-  background: #F3F4FB;
+body {
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .bg-network {
-  background: url('/images/back-network.png') top right no-repeat
+  /* background: url('/images/background.png') top right no-repeat; */
+  font-family: 'Titillium Web', sans-serif;
 }

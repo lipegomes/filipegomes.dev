@@ -17,8 +17,8 @@ const degrees = [
 const Education = () => {
   return (
     <div>
-      <h3 className='text-4xl text-center text-orange font-bold uppercase mb-5'>My Education</h3>
-      <div className='mx-6 md:mx-0 md:grid md:grid-cols-2 leading-none bg-white rounded-lg shadow-lg'>
+      <h3 className='text-4xl text-center text-white font-bold uppercase mb-5'>My Education</h3>
+      <div className='mx-6 md:mx-0 md:grid md:grid-cols-2 leading-none border border-solid rounded-lg shadow-lg'>
         {degrees.map((degree, i) => (
           <EducationItem key={'i' + i} degree={degree} />
         ))}

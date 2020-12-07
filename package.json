@@ -20,7 +20,7 @@
   "homepage": "https://github.com/lipegomes/filipegomes.dev#readme",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
-    "autoprefixer": "^9.8.6",
+    "autoprefixer": "^10.0.4",
     "next": "^10.0.1",
     "postcss-import": "^13.0.0",
     "react": "^17.0.1",
