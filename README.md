@@ -6,9 +6,6 @@
 
 Este projeto é o código do meu currículo online, disponível em: https://filipegomes.dev/.
 
-
-![](https://github.com/lipegomes/filipegomes.dev/blob/main/public/images/main.png)
-
 ## 
 
 ## Início
